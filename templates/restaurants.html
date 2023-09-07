@@ -3,11 +3,11 @@
 <html>
 	<head>
 		<title>Restaurants</title>
-		<link rel="icon" href="images/githublogo.ico">
+		<link rel="icon" href="{{ url_for('static', filename='images/githublogo.ico') }}">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -44,7 +44,7 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/restaurants/melange.jpg" alt="" />
+							<img src="{{ url_for('static', filename='images/restaurants/melange.jpg') }}" alt="" />
 						</div>
 					</section>
 
@@ -68,7 +68,7 @@
             </ul>
           </div>
           <div class="image">
-            <img src="images/restaurants/paccata.jpg" alt="" />
+            <img src="{{ url_for('static', filename='images/restaurants/paccata.jpg') }}" alt="" />
           </div>
         </section>
 
@@ -92,7 +92,7 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/restaurants/gloria.jpg" alt="" />
+							<img src="{{ url_for('static', filename='images/restaurants/gloria.jpg') }}" alt="" />
 						</div>
 					</section>
 
@@ -116,7 +116,7 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/restaurants/the-clock-n8.jpg" alt="" />
+							<img src="{{ url_for('static', filename='images/restaurants/the-clock-n8.jpg') }}" alt="" />
 						</div>
 					</section>
 
@@ -140,7 +140,7 @@
 	            </ul>
 	          </div>
 	          <div class="image">
-	            <img src="images/restaurants/jashan.jpg" alt="" />
+	            <img src="{{ url_for('static', filename='images/restaurants/jashan.jpg') }}" alt="" />
 	          </div>
 	        </section>
 
@@ -164,7 +164,7 @@
 								</ul>
 							</div>
 							<div class="image">
-								<img src="images/restaurants/supplant.jpg" alt="" />
+								<img src="{{ url_for('static', filename='images/restaurants/supplant.jpg') }}" alt="" />
 							</div>
 						</section>
 
@@ -188,7 +188,7 @@
 		            </ul>
 		          </div>
 		          <div class="image">
-		            <img src="images/restaurants/sumak.jpg" alt="" />
+		            <img src="{{ url_for('static', filename='images/restaurants/sumak.jpg') }}" alt="" />
 		          </div>
 		        </section>
 
@@ -212,7 +212,7 @@
 									</ul>
 								</div>
 								<div class="image">
-									<img src="images/restaurants/murger-han.jpg" alt="" />
+									<img src="{{ url_for('static', filename='images/restaurants/murger-han.jpg') }}" alt="" />
 								</div>
 							</section>
 
@@ -236,7 +236,7 @@
 			            </ul>
 			          </div>
 			          <div class="image">
-			            <img src="images/restaurants/midori.jpg" alt="" />
+			            <img src="{{ url_for('static', filename='images/restaurants/midori.jpg') }}" alt="" />
 			          </div>
 			        </section>
 
@@ -260,7 +260,7 @@
 										</ul>
 									</div>
 									<div class="image">
-										<img src="images/restaurants/la-gioconda.jpg" alt="" />
+										<img src="{{ url_for('static', filename='images/restaurants/la-gioconda.jpg') }}" alt="" />
 									</div>
 								</section>
 
@@ -284,7 +284,7 @@
 				            </ul>
 				          </div>
 				          <div class="image">
-				            <img src="images/restaurants/paesan.jpg" alt="" />
+				            <img src="{{ url_for('static', filename='images/restaurants/paesan.jpg') }}" alt="" />
 				          </div>
 				        </section>
 
@@ -308,7 +308,7 @@
 											</ul>
 										</div>
 										<div class="image">
-											<img src="images/restaurants/le-pot-de-terre.jpg" alt="" />
+											<img src="{{ url_for('static', filename='images/restaurants/le-pot-de-terre.jpg') }}" alt="" />
 										</div>
 									</section>
 
@@ -332,7 +332,7 @@
 					            </ul>
 					          </div>
 					          <div class="image">
-					            <img src="images/restaurants/kampai.jpg" alt="" />
+					            <img src="{{ url_for('static', filename='images/restaurants/kampai.jpg') }}" alt="" />
 					          </div>
 					        </section>
 
@@ -356,7 +356,7 @@
 												</ul>
 											</div>
 											<div class="image">
-												<img src="images/restaurants/tomo.jpg" alt="" />
+												<img src="{{ url_for('static', filename='images/restaurants/tomo.jpg') }}" alt="" />
 											</div>
 										</section>
 
@@ -377,14 +377,14 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/demo.js"></script>
+			<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/browser.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/demo.js') }}"></script>
 
 	</body>
 </html>

@@ -1,2 +1,5 @@
 README.txt
 index-demo.html
+Default.htm
+.venv*
+__pycache__

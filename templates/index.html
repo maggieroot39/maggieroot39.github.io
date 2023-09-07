@@ -8,11 +8,11 @@
 <html>
 	<head>
 		<title>Xinyi Xu</title>
-		<link rel="icon" href="images/githublogo.ico">
+		<link rel="icon" href="{{ url_for('static', filename='images/githublogo.ico') }}">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -50,7 +50,7 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/banner_pic.jpg" alt="" />
+							<img src="{{ url_for('static', filename='images/banner_pic.jpg') }}" alt="" />
 						</div>
 					</section>
 
@@ -68,13 +68,13 @@
 								The modelling & coding tab concludes what Xinyi did before she started her full time role as a Python Core Developer at MS.
 							</p>
 							<ul class="actions">
-								<li><a href="projects.html" class="button">Research</a></li>
-								<li><a href="projects.html" class="button primary">Teaching</a></li>
-								<li><a href="projects.html#modelling" class="button">Modelling & Coding</a></li>
+								<li><a href="proj" class="button">Research</a></li>
+								<li><a href="proj#teaching" class="button primary">Teaching</a></li>
+								<li><a href="proj#modelling" class="button">Modelling & Coding</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/maths_notes.jpg" alt="" />
+							<img src="{{ url_for('static', filename='images/maths_notes.jpg') }}" alt="" />
 						</div>
 					</section>
 
@@ -85,11 +85,11 @@
 							<p><i>One piece of paper, no glue no cut. It is the form of art attracts her interest. </i></p>
 							<p>Design, fold, and shape. As what many kids may have done, Xinyi started folding paper at a young age and got introduced to <a href="https://en.wikipedia.org/wiki/Origami">Modern Origami</a> in 2015. Apart from folding for fun, Xinyi also participates in competitions and sends artworks to support fundraising events.</p>
 							<ul class="actions stacked">
-								<li><a href="gallery.html" class="button">Gallery</a></li>
+								<li><a href="gallery" class="button">Gallery</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/frog.jpg" alt="" />
+							<img src="{{ url_for('static', filename='images/frog.jpg') }}" alt="" />
 						</div>
 					</section>
 
@@ -100,11 +100,11 @@
 							<p><i>Graphic design is about understanding, abstraction, creation and presentation.</i></p>
 							<p>Booklets, logos, slides... Xinyi is a designer working on lots of interesting projects. Equipped with Adobe InDesign, Illustrator and happy to explore more. Working samples available upon request.</p>
 							<ul class="actions stacked">
-								<li><a href="gallery.html" class="button">Gallery</a></li>
+								<li><a href="gallery" class="button">Gallery</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/ciec_manual.jpg" alt="" />
+							<img src="{{ url_for('static', filename='images/ciec_manual.jpg') }}" alt="" />
 						</div>
 					</section>
 
@@ -115,13 +115,13 @@
 								<p><i>Being a human, there are so many parts of life to enjoy.</i></p>
 								<p>Photography, piano playing, game designing, <a href = "https://www.xiachufang.com/cook/108346174/">cooking</a>, baking, filming... May not be as good as professionals, but those are the interests Xinyi enjoys.</p>
 								<ul class="actions">
-									<li><a href="gallery.html" class="button">Gallery</a></li>
-									<li><a href="restaurants.html" class="button primary">#Eat-Out-To-Help-Out</a></li>
-									<li><a href="podcast.html" class="button">Podcast</a></li>
+									<li><a href="gallery" class="button">Gallery</a></li>
+									<li><a href="restaurants" class="button primary">#Eat-Out-To-Help-Out</a></li>
+									<li><a href="podcast" class="button">Podcast</a></li>
 								</ul>
 							</div>
 							<div class="image">
-								<img src="images/dog_and_bug.jpg" alt="" />
+								<img src="{{ url_for('static', filename='images/dog_and_bug.jpg') }}" alt="" />
 							</div>
 						</section>
 
@@ -142,14 +142,14 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/demo.js"></script>
+			<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/browser.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+			<script src="{{ url_for('static', filename='assets/js/demo.js') }}"></script>
 
 	</body>
 </html>
